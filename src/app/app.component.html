@@ -2,6 +2,11 @@
   <div class="upper-data">
     <img src="../assets/hot.jpg" alt="hot icon" *ngIf="14 > 15">
     <img src="../assets/cold.jpg" alt="cold icon" *ngIf="14 <= 15">
+
+    <div class="weather-data">
+      <div class="location">Lille</div>
+      <div class="temperature">{{ 14.40 | number: '1.0-0'}}°C</div>
+    </div>
   </div>
   <div class="lower-data">
 
